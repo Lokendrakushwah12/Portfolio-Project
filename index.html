@@ -1,47 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap"
-      rel="stylesheet"/>
-  </head>
-  <body>
-    <section id="home">
-        <div class="nav-bar">
-            <div class="logo">
-                <h4>WS.</h4>
-            </div>
-            <ul id="links">
-                  <div class="nav-links">
-                    <li><div id="link-boxes"><a class="nav-links" href="#skill">Skills</a></div></li>
-                    <li><div id="link-boxes"><a class="nav-links" href="#project">Projects</a></div></li>
-                  </div>
-                    <li><div id="link-button"><a href="#contact"><div id="contact-all"><div id="contact-text">Contact</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path></svg></div></a></div></li>
-                </ul>
-            </div>
 
-        <div class="home-content">
-            <div class="home-text">
-                <h1>Hi, I'm <span>Will Smith</span></h1>
-                <h2>Web Developer</h2>
-                <p>I'm a web developer based in the Philippines. I have a passion for web design and love to create for web and mobile devices.</p>
-                <div class="home-button">
-                    <a href="#contact">Contact Me</a>
-                </div>
-            </div>
-            <div class="home-image">
-                <img src="assets/Pic.png" alt="hero" />
-            </div>
-    </section>
-    <section id="skill"></section>
-    <section id="project"></section>
-    <section id="contact"></section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap"
+    rel="stylesheet" />
+</head>
 
-    <script src="script.js"></script>
-  </body>
+<body>
+  <section id="home">
+    <div class="nav-bar">
+      <div class="logo">
+        <h4>WS.</h4>
+      </div>
+      <ul id="links">
+        <div class="nav-links">
+          <li>
+            <div id="link-boxes"><a class="nav-links" href="#skill">Skills</a></div>
+          </li>
+          <li>
+            <div id="link-boxes"><a class="nav-links" href="#project">Projects</a></div>
+          </li>
+        </div>
+        <li>
+          <div class="link-button"><a href="#contact">
+              <div id="contact-all">
+                <div id="contact-text">Contact</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z">
+                  </path>
+                </svg>
+              </div>
+            </a></div>
+        </li>
+      </ul>
+    </div>
+    <div class="home-content">
+      <div class="home-text">
+        <h1 class="name-text">Will <br> Smith.</h1>
+        <img src="./assets/Pic.png" alt="pic">
+        <div class="bio">
+          <h2>A first year student who is trying to<br>explore different fields.</h2>
+          <div class="bio-links">
+            <div class="resume-text link-button">Resume<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z">
+                </path>
+              </svg>
+            </div>
+            <div class="socials">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                <path
+                  d="M14.9999 0C11.4382 0.000151434 7.99268 1.29973 5.27995 3.66621C2.56722 6.03269 0.764287 9.31163 0.193739 12.9163C-0.376808 16.5211 0.322265 20.2163 2.16587 23.3409C4.00948 26.4655 6.87732 28.8156 10.2562 29.9706C11.0062 30.1052 11.2875 29.6438 11.2875 29.24C11.2875 28.8748 11.2687 27.6637 11.2687 26.3756C7.49999 27.0869 6.52499 25.4337 6.225 24.5686C5.89211 23.7272 5.36442 22.9816 4.68751 22.3962C4.16251 22.1079 3.41252 21.3966 4.66874 21.3774C5.14842 21.4307 5.60848 21.6019 6.00994 21.8763C6.41141 22.1507 6.74244 22.5203 6.97499 22.9537C7.18015 23.3316 7.45601 23.6642 7.78677 23.9326C8.11753 24.201 8.49669 24.3998 8.90253 24.5177C9.30836 24.6355 9.73289 24.6701 10.1518 24.6195C10.5707 24.5688 10.9757 24.4339 11.3437 24.2225C11.4086 23.4407 11.7485 22.7096 12.3 22.1656C8.96248 21.7811 5.475 20.4546 5.475 14.572C5.45392 13.0435 6.00403 11.5647 7.01249 10.4388C6.55392 9.11036 6.60757 7.6525 7.16249 6.36327C7.16249 6.36327 8.41869 5.95954 11.2875 7.93965C13.7419 7.24754 16.333 7.24754 18.7874 7.93965C21.6561 5.94033 22.9124 6.36327 22.9124 6.36327C23.4674 7.65248 23.521 9.11037 23.0624 10.4388C24.0739 11.5628 24.6245 13.0429 24.5999 14.572C24.5999 20.4738 21.0936 21.7811 17.7562 22.1656C18.1141 22.5376 18.3898 22.9842 18.5645 23.4751C18.7392 23.9661 18.8089 24.4898 18.7687 25.0108C18.7687 27.0678 18.7499 28.721 18.7499 29.2401C18.7499 29.6438 19.0311 30.1244 19.7811 29.9706C23.1541 28.8062 26.0137 26.4506 27.8495 23.3244C29.6852 20.1983 30.3776 16.5049 29.8031 12.9037C29.2286 9.30244 27.4246 6.02775 24.7131 3.66416C22.0015 1.30056 18.559 0.00189921 14.9999 0Z"
+                   />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                <path
+                  d="M25.6055 0H4.39453C1.97159 0 0 1.97159 0 4.39453V25.6055C0 28.0284 1.97159 30 4.39453 30H25.6055C28.0284 30 30 28.0284 30 25.6055V4.39453C30 1.97159 28.0284 0 25.6055 0ZM10.6055 23.7891H7.08984V11.4844H10.6055V23.7891ZM10.6055 9.72656H7.08984V6.21094H10.6055V9.72656ZM22.9102 23.7891H19.3945V16.7578C19.3945 15.7887 18.6058 15 17.6367 15C16.6676 15 15.8789 15.7887 15.8789 16.7578V23.7891H12.3633V11.4844H15.8789V12.147C16.7999 11.8607 17.3982 11.4844 18.5156 11.4844C20.8999 11.4869 22.9102 13.6258 22.9102 16.1536V23.7891Z"
+                   />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="29" viewBox="0 0 35 29">
+                <path
+                  d="M35 3.92906C33.6984 4.5 32.3116 4.87844 30.8656 5.06219C32.3531 4.17406 33.4884 2.77844 34.0222 1.09625C32.6353 1.92312 31.1041 2.50719 29.4722 2.83313C28.1553 1.43094 26.2784 0.5625 24.2309 0.5625C20.2584 0.5625 17.0603 3.78688 17.0603 7.73969C17.0603 8.30844 17.1084 8.85531 17.2266 9.37594C11.2612 9.085 5.98281 6.22594 2.43687 1.87063C1.81781 2.94469 1.45469 4.17406 1.45469 5.4975C1.45469 7.9825 2.73438 10.1853 4.64187 11.4606C3.48906 11.4387 2.35812 11.1041 1.4 10.5769C1.4 10.5988 1.4 10.6272 1.4 10.6556C1.4 14.1425 3.88719 17.0387 7.14875 17.7059C6.56469 17.8656 5.92812 17.9422 5.2675 17.9422C4.80813 17.9422 4.34437 17.9159 3.90906 17.8197C4.83875 20.6612 7.47688 22.7503 10.6138 22.8181C8.1725 24.7278 5.07281 25.8784 1.71719 25.8784C1.12875 25.8784 0.564375 25.8522 0 25.78C3.17844 27.8297 6.94531 29 11.0075 29C24.2113 29 31.43 18.0625 31.43 8.58187C31.43 8.26469 31.4191 7.95844 31.4037 7.65438C32.8278 6.64375 34.0244 5.38156 35 3.92906Z"
+                   />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="skill"></section>
+  <section id="project"></section>
+  <section id="contact"></section>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
