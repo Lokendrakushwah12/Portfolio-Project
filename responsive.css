@@ -1,0 +1,51 @@
+@media only screen and (max-width: 1200px) {
+
+    .bio {
+        right: 15%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .nav-bar {
+        width: 90%;
+    }
+    .home-left h1 {
+        left: 28%;
+      }
+      
+      .home-left img {
+        left: 28%;
+      }
+    .bio {
+        position: relative;
+        top: 15rem;
+        right: 0;
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-bar {
+        width: 95%;
+    }
+    .home-left h1 {
+        left: 23%;
+      }
+      
+      .home-left img {
+        left: 23%;
+      }
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-bar {
+        width: 97%;
+    }
+    .home-left h1 {
+        left: 15%;
+      }
+      
+      .home-left img {
+        left: 15%;
+      }
+}
